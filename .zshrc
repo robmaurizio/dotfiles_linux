@@ -14,9 +14,9 @@ autoload -U compinit && compinit
 export CLICOLOR=1
 
 ### Load dotfiles ###
-source /Users/$USER/aliases.zsh
-source /Users/$USER/functions.zsh
-source /Users/$USER/prompt.zsh
+source /home/$USER/aliases.zsh
+source /home/$USER/functions.zsh
+source /home/$USER/prompt.zsh
 
 ### Set bind keys ###
 bindkey -v
