@@ -12,6 +12,10 @@ autoload -U compinit && compinit
 
 ### Enable color output ###
 export CLICOLOR=1
+autoload -U colors && colors
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
 
 ### Load dotfiles ###
 source /home/$USER/aliases.zsh
