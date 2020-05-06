@@ -21,7 +21,7 @@ esac
 source /home/$USER/dotfiles_linux/aliases.zsh
 source /home/$USER/dotfiles_linux/functions.zsh
 source /home/$USER/dotfiles_linux/prompt.zsh
-source /home/$USER/dotfiles_linux/.dir_colors.zsh
+source /home/$USER/.dir_colors
 
 ### Set bind keys ###
 bindkey -v
