@@ -16,14 +16,12 @@ autoload -U colors && colors
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
-LS_COLORS="ow=01;90:di=01;90"
-export LS_COLORS
-
 
 ### Load dotfiles ###
 source /home/$USER/dotfiles_linux/aliases.zsh
 source /home/$USER/dotfiles_linux/functions.zsh
 source /home/$USER/dotfiles_linux/prompt.zsh
+source /home/$USER/dotfiles_linux/.dir_colors.zsh
 
 ### Set bind keys ###
 bindkey -v
