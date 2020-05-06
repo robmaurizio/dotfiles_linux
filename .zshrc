@@ -30,7 +30,7 @@ bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
 ### Set Nano as default Terminal editor ###
-export EDITOR=/usr/local/bin/nano
+export EDITOR=/usr/bin/nano
 
 ### Load zsh plugins ###
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
