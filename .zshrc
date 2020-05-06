@@ -18,9 +18,9 @@ case "$TERM" in
 esac
 
 ### Load dotfiles ###
-source /home/$USER/aliases.zsh
-source /home/$USER/functions.zsh
-source /home/$USER/prompt.zsh
+source /home/$USER/dotfiles_linux/aliases.zsh
+source /home/$USER/dotfiles_linux/functions.zsh
+source /home/$USER/dotfiles_linux/prompt.zsh
 
 ### Set bind keys ###
 bindkey -v
