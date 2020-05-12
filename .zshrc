@@ -26,13 +26,13 @@ source /home/$USER/dotfiles_linux/prompt.zsh
 bindkey -v
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 ### Set Nano as default Terminal editor ###
 export EDITOR=/usr/bin/nano
 
 ### Load zsh plugins ###
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-fpath=(/usr/local/share/zsh-completions $fpath)
+source /home/rob/dotfiles_linux/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/rob/dotfiles_linux/zsh-history-substring-search/zsh-history-substring-search.zsh
+fpath=(/home/rob/dotfiles_linux/zsh-completions $fpath)
