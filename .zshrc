@@ -33,6 +33,6 @@ bindkey '^[[B' history-substring-search-down
 export EDITOR=/usr/bin/nano
 
 ### Load zsh plugins ###
-source /home/rob/dotfiles_linux/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /home/rob/dotfiles_linux/zsh-history-substring-search/zsh-history-substring-search.zsh
-fpath=(/home/rob/dotfiles_linux/zsh-completions $fpath)
+source /home/$USER/dotfiles_linux/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/$USER/dotfiles_linux/zsh-history-substring-search/zsh-history-substring-search.zsh
+fpath=(/home/$USER/dotfiles_linux/zsh-completions $fpath)
