@@ -32,8 +32,8 @@ alias rm='rm -v' # Remove (delete) -interactive
 ###################
 alias ps='ps -acmx'
 alias root='sudo -i' # Allow root access
-alias rebootnow='sudo shutdown -r now'
-alias sleepnow='pmset sleepnow'
+alias rebootnow='sudo systemctl reboot now'
+alias sleepnow='sudo systemctl suspend'
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias sudo='sudo ' # Make aliases sudo-able
 alias zshrc='edit /home/$USER/.zshrc'
