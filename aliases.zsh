@@ -42,7 +42,7 @@ alias grep='grep -Hn --color=auto' # Show results of search in color
 ###################
 #     Updates     #
 ###################
-alias update='python3 /home/$USER/dotfiles/scripts/softwareUpdate.py' # Look for application and Ubuntu updates
+alias update='python3 /home/$USER/dotfiles_linux/scripts/softwareUpdate.py' # Look for application and Ubuntu updates
 alias reload='source /home/$USER/.zshrc'
 
 ###################
