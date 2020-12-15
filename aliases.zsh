@@ -13,10 +13,6 @@ alias ld='ls -l'   # List files in long format, only directories
 ###################
 #   Directories   #
 ###################
-alias pydir='cd /Users/$USER/Google\ Drive/Python'
-alias library='cd /home/$USER/Library'
-alias dt='cd /home/$USER/Desktop/'
-alias dl='cd /home/$USER/Downloads/'
 alias hs='history | grep'
 alias grep='grep --color=always' # Show results of search in color
 
@@ -49,7 +45,8 @@ alias reload='source /home/$USER/.zshrc'
 #  Applications   #
 ###################
 alias edit="nano"
-alias gc="git add . && git commit -m"
-alias gpu='git pull'
-alias gp='git push'
+alias gcom="git add . && git commit -m"
+alias gpull='git pull'
+alias gpush='git push'
 alias gam='/Users/$USER/bin/gam/gam'
+alias python='python3'
