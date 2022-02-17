@@ -45,3 +45,4 @@ alias nano="nano -lm$"
 alias edit="nano -lm$"
 alias gcom="git add . && git commit -m"
 alias gpull='git pull'
+alias top='htop'
