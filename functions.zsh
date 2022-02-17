@@ -3,11 +3,6 @@ function cd {
   builtin cd "$@" && ls
 }
 
-### Open a manual (man) page as a PDF file in Preview ###
-function pman() {
-  man -t "$1" | open -f -a Preview
-}
-
 ### Creates a new directory and enter it ###
 function mkd() {
 	mkdir -p "$@" && cd "$_";
