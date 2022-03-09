@@ -15,8 +15,8 @@ alias ld='ls -d' # List directories only
 ###################
 alias hs='history | grep'
 alias grep='grep --color=auto' # Show results of search in color
-alias whome='cd /mnt/c/Users/$USER
-alias lhome='cd /home/$USER
+alias whome='cd /mnt/c/Users/$USER'
+alias lhome='cd /home/$USER'
 
 ###################
 #    Operations   #
