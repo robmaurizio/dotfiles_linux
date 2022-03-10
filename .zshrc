@@ -26,11 +26,11 @@ source /home/$USER/dotfiles_linux/prompt.zsh
 bindkey -v
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
 
 ### Set Nano as default Terminal editor ###
-export EDITOR=/usr/bin/nano
+export EDITOR=/usr/bin/micro
 
 ### Load zsh plugins ###
 source /home/$USER/dotfiles_linux/zsh-autosuggestions/zsh-autosuggestions.zsh
