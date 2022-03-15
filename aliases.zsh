@@ -35,7 +35,9 @@ alias df='df -h'
 #     Updates     #
 ###################
 alias apt='sudo apt'
-alias update='sudo apt update && sudo apt upgrade -y' # Look for application and Ubuntu updates
+alias dnf-'sudo dnf'
+alias aptupdate='sudo apt update && sudo apt upgrade -y' # Look for application and Ubuntu updates
+alias dnfupdate='sudo dnf update --refresh'
 alias reload='source /home/$USER/.zshrc'
 
 ###################
