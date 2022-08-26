@@ -43,7 +43,7 @@ alias reload='source /home/$USER/.zshrc'
 ###################
 #  Applications   #
 ###################
-alias edit="nano"
+alias edit="gedit"
 alias gcom="git add . && git commit -m"
 alias gpull='git pull'
 alias top='htop'
