@@ -1,38 +1,20 @@
-### Set history file location and length ###
-HISTFILE=$HOME/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+# ~/.zshrc - Zsh configuration loader
 
-### Case-insensitive command completion ###
-zstyle ':completion:*' menu select
-zstyle ':completion:*' completer _complete
-zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+l:|=* r:|=*'
+# Performance optimization - faster loading
+skip_global_compinit=1
 
-autoload -U compinit && compinit
+# Create config directory if it doesn't exist
+[ ! -d ~/.config/zsh ] && mkdir -p ~/.config/zsh
 
-### Enable color output ###
-export CLICOLOR=1
-autoload -U colors && colors
-case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
-esac
+# Load configuration modules in order
+source ~/.config/zsh/history.zsh
+source ~/.config/zsh/environment.zsh
+source ~/.config/zsh/completion.zsh
+source ~/.config/zsh/prompt.zsh
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/functions.zsh
+source ~/.config/zsh/keybindings.zsh
+source ~/.config/zsh/plugins.zsh
 
-### Load dotfiles ###
-source /home/$USER/dotfiles_linux/aliases.zsh
-source /home/$USER/dotfiles_linux/functions.zsh
-source /home/$USER/dotfiles_linux/prompt.zsh
-
-### Set bind keys ###
-bindkey -v
-bindkey '^a' beginning-of-line
-bindkey '^e' end-of-line
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
-
-### Set Nano as default Terminal editor ###
-export EDITOR=/usr/bin/micro
-
-### Load zsh plugins ###
-source /home/$USER/dotfiles_linux/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /home/$USER/dotfiles_linux/zsh-history-substring-search/zsh-history-substring-search.zsh
-fpath=(/home/$USER/dotfiles_linux/zsh-completions $fpath)
+# Source local configuration if it exists
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
