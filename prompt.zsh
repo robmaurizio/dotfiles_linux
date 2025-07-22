@@ -1,7 +1,13 @@
-# Customizes and sets the prompt
-  # Working directory ❯❯❯
-PS1="%{$fg[cyan]%}%c ";
-PS1+="%F{red}❯%f";
-PS1+="%F{yellow}❯%f";
-PS1+="%F{green}❯%f ";
-export PS1
+# ============================================================================
+# PROMPT CONFIGURATION
+# ============================================================================
+# Colors
+autoload -U colors && colors
+
+# Six-pointed star gradient
+# Define the stars
+chicago_stars="%F{blue}✶ %F{cyan}✶ %F{white}✶%f"
+
+# Build the prompt
+PROMPT='%F{cyan}%n%f@%F{blue}%m%f %F{yellow}%~%f
+${chicago_stars} '
