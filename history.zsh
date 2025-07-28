@@ -1,4 +1,4 @@
-# ~/.config/zsh/history.zsh - History configuration
+# /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/history.zsh - History configuration
 
 #########################
 #  History Configuration  #

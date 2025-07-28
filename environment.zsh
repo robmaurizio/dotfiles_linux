@@ -1,4 +1,4 @@
-# ~/dotfiles_linux/environment.zsh - Environment variables and PATH
+# /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/environment.zsh - Environment variables and PATH
 
 #########################
 #  Environment Variables  #

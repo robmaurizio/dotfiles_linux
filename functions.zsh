@@ -1,4 +1,4 @@
-# ~/.config/zsh/functions.zsh - Custom functions
+# /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/functions.zsh - Custom functions
 
 ###############
 #  Functions  #

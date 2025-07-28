@@ -1,4 +1,4 @@
-# ~/dotfiles_linux/prompt.zsh - Prompt configuration
+# /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/prompt.zsh - Prompt configuration
 
 #######################
 #  Prompt Configuration  #

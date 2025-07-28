@@ -1,4 +1,4 @@
-# ~/.config/zsh/keybindings.zsh - Key bindings configuration
+# /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/keybindings.zsh - Key bindings configuration
 
 #################
 #  Key Bindings  #
