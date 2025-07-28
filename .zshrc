@@ -7,14 +7,14 @@ skip_global_compinit=1
 #[ ! -d ~/dotfiles_linux/zsh ] && mkdir -p ~/.config/zsh
 
 # Load configuration modules in order
-source ~/dotfiles_linux/history.zsh
-source ~/dotfiles_linux/environment.zsh
-source ~/dotfiles_linux/completion.zsh
-source ~/dotfiles_linux/prompt.zsh
-source ~/dotfiles_linux/aliases.zsh
-source ~/dotfiles_linux/functions.zsh
-source ~/dotfiles_linux/keybindings.zsh
-source ~/dotfiles_linux/plugins.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/history.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/environment.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/completion.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/prompt.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/aliases.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/functions.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/keybindings.zsh
+source /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/plugins.zsh
 
 # Source local configuration if it exists
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
