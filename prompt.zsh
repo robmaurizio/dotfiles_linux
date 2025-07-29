@@ -1,8 +1,8 @@
 # /mnt/c/Users/RobMaurizio/GitHub/dotfiles_linux/prompt.zsh - Prompt configuration
 
-#######################
+##########################
 #  Prompt Configuration  #
-#######################
+##########################
 # Colors
 autoload -U colors && colors
 
