@@ -56,10 +56,10 @@ alias zshconfig='$EDITOR ~/.zshrc'
 ##################
 #  Fedora & DNF  #
 ##################
-alias update='sudo dnf update'
-alias install='sudo dnf install'
-alias search='dnf search'
-alias info='dnf info'
+alias update='sudo dnf5 update'
+alias install='sudo dnf5 install'
+alias search='dnf5 search'
+alias info='dnf5 info'
 
 #########################
 #  Development & Tools  #
@@ -71,7 +71,7 @@ alias json='python3 -m json.tool'
 alias ports='netstat -tuln'
 alias myip='curl -s ifconfig.me'
 
-# Quick edits
+### Quick edits
 alias aliasconfig='$EDITOR ~/dotfiles_linux/aliases.zsh'
 alias hosts='sudo $EDITOR /etc/hosts'
 
