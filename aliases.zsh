@@ -14,7 +14,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias linhome='cd /home/$USER'
-alias winhome='cd /mnt/c/Users/$USER'
+alias winhome='cd /mnt/c/Users/RobMaurizio'
 
 # Quick directory navigation
 alias -- -='cd -'  # Go to previous directory
