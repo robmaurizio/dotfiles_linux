@@ -78,7 +78,7 @@ alias hosts='sudo $EDITOR /etc/hosts'
 #############
 #  Scripts  #
 #############
-alias temperature='python3 /mnt/c/Users/RobMaurizio/kDrive/Apps\ \&\ Scripts/OBS/weather.py'
+#alias temperature='python3 /mnt/c/Users/RobMaurizio/kDrive/Apps\ \&\ Scripts/OBS/weather.py'
 
 #############
 #   Apps    #
