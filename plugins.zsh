@@ -6,7 +6,7 @@
 
 # Syntax highlighting 
 # Install with: git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
-[ -f /var/home/rob/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source  /var/home/rob/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[ -f /var/home/rob/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /var/home/rob/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Auto-suggestions
 # Install with: git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/zsh-autosuggestions
