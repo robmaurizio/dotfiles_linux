@@ -13,7 +13,7 @@ alias l='ls -CF'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias linhome='cd /home/$USER'
+alias linhome='cd /var/home/$USER'
 #alias winhome='cd /mnt/c/Users/RobMaurizio'
 
 # Quick directory navigation
@@ -56,10 +56,10 @@ alias zshconfig='$EDITOR ~/.zshrc'
 ##################
 #  Fedora & DNF  #
 ##################
-alias update='sudo dnf5 update'
-alias install='sudo dnf5 install'
-alias search='dnf5 search'
-alias info='dnf5 info'
+#alias update='sudo dnf5 update'
+#alias install='sudo dnf5 install'
+#alias search='dnf5 search'
+#alias info='dnf5 info'
 
 #########################
 #  Development & Tools  #

@@ -3,8 +3,8 @@
 #####################
 #  Completion System  #
 #####################
-autoload -Uz compinit
-compinit
+#autoload -Uz compinit
+#compinit
 
 # Completion options
 setopt AUTO_MENU               # Show completion menu on tab
