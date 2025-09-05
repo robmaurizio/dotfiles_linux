@@ -15,6 +15,3 @@ source /var/home/rob/dotfiles_linux/prompt.zsh
 source /var/home/rob/dotfiles_linux/aliases.zsh
 source /var/home/rob/dotfiles_linux/functions.zsh
 source /var/home/rob/dotfiles_linux/keybindings.zsh
-
-# Source local configuration if it exists
-#[ -f ~/.zshrc ] && source ~/.zshrc
