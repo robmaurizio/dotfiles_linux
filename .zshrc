@@ -7,6 +7,7 @@
 #[ ! -d ~/dotfiles_linux/zsh ] && mkdir -p ~/.config/zsh
 
 # Load configuration modules in order
+source /var/home/rob/dotfiles_linux/plugins.zsh
 source /var/home/rob/dotfiles_linux/history.zsh
 source /var/home/rob/dotfiles_linux/environment.zsh
 source /var/home/rob/dotfiles_linux/completion.zsh
@@ -14,7 +15,6 @@ source /var/home/rob/dotfiles_linux/prompt.zsh
 source /var/home/rob/dotfiles_linux/aliases.zsh
 source /var/home/rob/dotfiles_linux/functions.zsh
 source /var/home/rob/dotfiles_linux/keybindings.zsh
-source /var/home/rob/dotfiles_linux/plugins.zsh
 
 # Source local configuration if it exists
 #[ -f ~/.zshrc ] && source ~/.zshrc
